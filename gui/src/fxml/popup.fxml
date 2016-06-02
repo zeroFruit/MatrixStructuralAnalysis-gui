@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER_LEFT">
+	<!-- TODO Add Nodes -->
+	<children>
+		<Label id="lblMessage">
+			<HBox.margin>
+				<Insets left="5" right="5" />
+			</HBox.margin>
+		</Label>
+	</children>
+</HBox>
+

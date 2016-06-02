@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="180" prefWidth="500"
+	fx:controller="application.settingType" fx:id="container">
+	<!-- TODO Add Nodes -->
+	<children>
+		<Label layoutX="11.0" layoutY="9" text="Kind of structure" />
+		<ListView fx:id="structureType" layoutX="10.0" layoutY="30.0"
+			prefHeight="100.0" prefWidth="100.0" />
+		
+		<Button layoutX="190.0" layoutY="145" onAction="#handleBtnOkAction" text="ok"/>
+		<Button layoutX="260" layoutY="145.0" onAction="#handleBtnCancelAction" text="cancel" />
+	</children>
+</AnchorPane>
+
